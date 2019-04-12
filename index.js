@@ -6,6 +6,6 @@ app.get('/', (req, res) => res.send('<html><body style="background-color: #2a263
 app.get('/throw-error', (req, res) => {
     console.log(test.app);
     res.send('hi');
-}));
+});
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
