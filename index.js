@@ -8,7 +8,7 @@ app.get('/', (req, res) => res.send('<html><body style="background-color: #2a263
 + '</body></html>'));
 
 app.get('/throw-error/:key', (req, res) => {
-    res.send('hi');
+    res.send("Hello");
 });
 
 app.listen(port);
