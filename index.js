@@ -13,4 +13,8 @@ app.get('/throw-error/:key', (req, res) => {
     res.send('hi');
 });
 
+var data = "testing";
+
+console.log("Data > ", data);
+
 app.listen(port);
