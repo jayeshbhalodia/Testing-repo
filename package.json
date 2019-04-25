@@ -29,6 +29,9 @@
         "eslint-plugin-html": "^4.0.3",
         "eslint-plugin-import": "^2.17.1",
         "eslint-plugin-jsx-a11y": "^6.1.2",
-        "eslint-plugin-react": "^7.11.1"
+        "eslint-plugin-react": "^7.11.1",
+        "mocha": "^6.1.4",
+        "mocha-json-report": "0.0.2",
+        "mocha-spec-json-output-reporter": "^1.1.6"
     }
 }
