@@ -1,2 +1,5 @@
 const d = 1;
-var hello = "testing";
+const hello = 'testing';
+
+
+exports.d = () => d + hello;
