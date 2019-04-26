@@ -11,4 +11,9 @@ app.get('/throw-error/:key', (req, res) => {
     res.send('hello');
 });
 
+const currentDate = new Date();
+app.get('/time', (req, res) => {
+    res.send("Date : " + currentDate);
+});
+
 app.listen(port);
