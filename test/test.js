@@ -15,7 +15,7 @@ describe('Array', () => {
     
     describe('#indexOfParesh()', () => {
         it('should return 0 when the value is present at position one', () => {
-            assert.equal([1, 2, 3].indexOf(1), 1);
+            assert.equal([1, 2, 3].indexOf(1), 0);
         });
     });
 });
