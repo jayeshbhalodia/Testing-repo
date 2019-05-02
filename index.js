@@ -16,4 +16,8 @@ app.get('/time', (req, res) => {
     res.send(`Date : ${currentDate}`);
 });
 
+app.get('/health.js', (req, res) => {
+    res.send('live');
+});
+
 app.listen(port);
